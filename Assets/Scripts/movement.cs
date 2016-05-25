@@ -20,17 +20,17 @@ public class movement : MonoBehaviour {
         v = Input.GetAxis("Vertical");
         h = Input.GetAxis("Horizontal");
 
-        Vector3 movement = new Vector3(h, 0.0f, v);
+        //Vector3 movement = new Vector3(h, 0.0f, v);
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             anim.SetFloat("vSpeed", v + 1);
-            rb.AddForce(movement * speed);
+            //rb.AddForce(movement * speed);
             
         }
         else
             anim.SetFloat("vSpeed", v);
-        anim.SetFloat("hSpeed", h);
+        //anim.SetFloat("hSpeed", h);
         anim.SetFloat("direction", h);
 
         if (Input.GetKeyDown("1"))
