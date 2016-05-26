@@ -72,6 +72,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DialogManager\Scripts\DialogGameSceneExample.cs" />
+    <Compile Include="Assets\DialogManager\Scripts\DialogManager.cs" />
     <Compile Include="Assets\Mixamo\Mecanim Demo\DemoControlScript.cs" />
     <Compile Include="Assets\Mixamo\Mecanim Demo\DemoScript.cs" />
     <Compile Include="Assets\RoadTool\Scripts\Road.cs" />
