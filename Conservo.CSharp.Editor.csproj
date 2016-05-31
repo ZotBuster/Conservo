@@ -88,29 +88,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.EditorTestsRunner">
-      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    <Reference Include="EasyRoads3DEditor">
+      <HintPath>Assets\EasyRoads3D Free\Editor\EasyRoads3DEditor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    <Reference Include="EasyRoads3D">
+      <HintPath>Assets\EasyRoads3D Free\lib\EasyRoads3D.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TreeEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -125,11 +113,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\RoadTool\Editor\RoadTool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\RoadTool\Example\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\RoadTool\README.txt" />
+    <None Include="Assets\RoadTool\Texture\Texture Credits.txt" />
+    <None Include="Assets\Sculptures\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\ats Package\Demoscene\Terrain\UnityTerrainBump\TerrainReplacement.shader" />
+    <None Include="Assets\ats Package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\BillboardTree.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH-Tree Bark rendertex.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH_Vertex.cginc" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\Tree.cginc" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\ats SH-Tree Bark.shader" />
+    <None Include="Assets\ats Package\ats vertexLitShader Package\Shader\ats VertexLit.shader" />
+    <None Include="Assets\ats Package\readme_treeBarkShader.txt" />
+    <None Include="Assets\ats Package\readme_vertexLitShader.txt" />
+    <None Include="Assets\laxer tree pkg\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

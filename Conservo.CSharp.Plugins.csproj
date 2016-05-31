@@ -58,17 +58,15 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3D">
+      <HintPath>Assets\EasyRoads3D Free\lib\EasyRoads3D.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
@@ -109,8 +107,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\RoadTool\Example\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\RoadTool\README.txt" />
+    <None Include="Assets\RoadTool\Texture\Texture Credits.txt" />
+    <None Include="Assets\Sculptures\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\ats Package\Demoscene\Terrain\UnityTerrainBump\TerrainReplacement.shader" />
+    <None Include="Assets\ats Package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\BillboardTree.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH-Tree Bark rendertex.shader" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH_Vertex.cginc" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\Tree.cginc" />
+    <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\ats SH-Tree Bark.shader" />
+    <None Include="Assets\ats Package\ats vertexLitShader Package\Shader\ats VertexLit.shader" />
+    <None Include="Assets\ats Package\readme_treeBarkShader.txt" />
+    <None Include="Assets\ats Package\readme_vertexLitShader.txt" />
+    <None Include="Assets\laxer tree pkg\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
