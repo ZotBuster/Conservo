@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservo-2.0.CSharp.Plugins", "Conservo-2.0.CSharp.Plugins.csproj", "{7445AEB2-600D-3373-80C2-3D57393626FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservo-2.0.CSharp", "Conservo-2.0.CSharp.csproj", "{26A5C3F4-3D87-364B-C02A-5E5856C3012E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservo-2.0.CSharp.Editor", "Conservo-2.0.CSharp.Editor.csproj", "{378D7628-3503-78F4-820F-9E721E70E2E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7445AEB2-600D-3373-80C2-3D57393626FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7445AEB2-600D-3373-80C2-3D57393626FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7445AEB2-600D-3373-80C2-3D57393626FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7445AEB2-600D-3373-80C2-3D57393626FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A5C3F4-3D87-364B-C02A-5E5856C3012E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A5C3F4-3D87-364B-C02A-5E5856C3012E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A5C3F4-3D87-364B-C02A-5E5856C3012E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A5C3F4-3D87-364B-C02A-5E5856C3012E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378D7628-3503-78F4-820F-9E721E70E2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378D7628-3503-78F4-820F-9E721E70E2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378D7628-3503-78F4-820F-9E721E70E2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378D7628-3503-78F4-820F-9E721E70E2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

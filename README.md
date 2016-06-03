@@ -1,2 +1,2 @@
-# Conservo
-Conservo Game Repository for ICS 62
+# Conservo-2.0
+ICS 62 Game project 

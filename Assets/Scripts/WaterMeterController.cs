@@ -25,6 +25,8 @@ public class WaterMeterController : MonoBehaviour {
 	void Update (){
         currentWater -= currentDecreaseRate * Time.deltaTime;
         totalTime += Time.deltaTime;
+        PlayerPrefs.SetFloat("Water", (float)currentWater);
+        PlayerPrefs.SetFloat("Time", (float)totalTime);
         GameOverCheck();
         WinCheck();
 	}

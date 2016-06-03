@@ -61,6 +61,12 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="DialogueSystem">
+      <HintPath>Assets\Dialogue System\DLLs\DialogueSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="LuaInterpreter">
+      <HintPath>Assets\Dialogue System\DLLs\LuaInterpreter.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
@@ -141,8 +147,10 @@
     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateDialogueUI.cs" />
     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateQuestLogWindow.cs" />
     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateTextFieldUI.cs" />
+    <Compile Include="Assets\GetScoreScript.cs" />
     <Compile Include="Assets\Mixamo\Mecanim Demo\DemoControlScript.cs" />
     <Compile Include="Assets\Mixamo\Mecanim Demo\DemoScript.cs" />
+    <Compile Include="Assets\ResultsScript.cs" />
     <Compile Include="Assets\RoadTool\Scripts\Road.cs" />
     <Compile Include="Assets\RoadTool\Scripts\RoadMath.cs" />
     <Compile Include="Assets\RoadTool\Scripts\RoadUtils.cs" />
@@ -151,12 +159,17 @@
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\KeyRotator.cs" />
     <Compile Include="Assets\Scripts\MagnetPowerUp.cs" />
+    <Compile Include="Assets\Scripts\MeterDecreaseScript.cs" />
+    <Compile Include="Assets\Scripts\MyLuaFunctions.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\WaterMeterController.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
+    <Compile Include="Assets\ToCredits.cs" />
+    <Compile Include="Assets\ToInformationScript.cs" />
+    <Compile Include="Assets\WinMenuScript.cs" />
     <Compile Include="Assets\ats Package\Demoscene\Terrain\UnityTerrainBump\CustomTerrainScript.cs" />
   </ItemGroup>
   <ItemGroup>
