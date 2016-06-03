@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using PixelCrushers.DialogueSystem;
 public class WaterMeterController : MonoBehaviour {
 
-    public float startingWaterValue;
+    public double startingWaterValue;
     public int NPC_Total;
-    public float startingWaterDecreaseRate;
-    public float totalTime;
+    public double startingWaterDecreaseRate;
+    public double totalTime;
     
-    private int NPC_Interacted;
-    private float currentWater;
-    private float currentDecreaseRate;
-	// Use this for initialization
-	void Start () {
+    public int NPC_Interacted;
+    public double currentWater;
+    public double currentDecreaseRate;
+
+
+    
+    // Use this for initialization
+    void Start () {
         currentWater = startingWaterValue;
         NPC_Interacted = 0;
         currentDecreaseRate = startingWaterDecreaseRate;
@@ -23,6 +26,7 @@ public class WaterMeterController : MonoBehaviour {
         currentWater -= currentDecreaseRate * Time.deltaTime;
         totalTime += Time.deltaTime;
         GameOverCheck();
+        WinCheck();
 	}
 
     void GameOverCheck()
@@ -36,9 +40,11 @@ public class WaterMeterController : MonoBehaviour {
 
     void WinCheck()
     {
-        if (NPC_Interacted <= 0)
+        if (NPC_Interacted >= NPC_Total)
         {
             Application.LoadLevel("GameOverWin");
         }
     }
+
+    
 }
