@@ -1,0 +1,55 @@
+Initialize engine version: 5.4.0b17 (a34abf3bb95e)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.042 seconds
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ZotBuster\Documents\Unity Projects\SourceTree Conservo\TestMenus_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.826740 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3ad0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+The tree baum ld2(enhanced) must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 139)
+
+The tree baum ld2(enhanced) must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 139)
+
+The tree baum ld0(enhanced) must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 139)
+
+The tree baum ld0(enhanced) must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 139)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/BillboardTree' - Pass '' has no vertex shader
+UnloadTime: 0.265059 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 0.425790 ms (FindLiveObjects: 0.099360 ms CreateObjectMapping: 0.021041 ms MarkObjects: 0.164822 ms  DeleteObjects: 0.129169 ms)
+
